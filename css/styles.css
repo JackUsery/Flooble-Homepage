@@ -15,13 +15,6 @@ body {
   background-color: #282c34;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-li,
 a {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
@@ -36,11 +29,9 @@ a {
   border-radius: 50%;
 }
 
-.nav-links {
-  list-style: none;
-  padding: 0.5rem;
+.right,
+.logo {
 }
 
-ul {
-  display: flex;
+.left {
 }
