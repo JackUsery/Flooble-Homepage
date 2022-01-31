@@ -8,13 +8,14 @@
 
 html {
   font-size: 62.5%;
+  overflow: hidden;
 }
 
 body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  min-height: 100vh;
+
   background-color: #282c34;
   font-family: "Poppins", sans-serif;
   margin: 0;
@@ -29,6 +30,7 @@ body {
 /***FOOTER***/
 
 footer {
+  min-height: 5vh;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -61,12 +63,47 @@ a:hover {
   text-decoration: none;
 }
 
+.btn {
+  color: gray;
+  font-size: 22px;
+}
+
 /***CONTENT***/
 
 .content {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  min-height: 85vh;
   margin: auto;
   text-align: center;
+}
+
+input {
+  margin-top: 5rem;
+  width: 851px;
+  height: 66px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: large;
+  padding: 1rem;
+}
+
+.wrap {
+  position: absolute;
+}
+
+#mag {
+  position: relative;
+  right: 1px;
+}
+
+.btn {
+  width: 258px;
+  height: 72px;
+  margin-top: 5rem;
+}
+
+button + button {
+  margin-left: 2rem;
 }
